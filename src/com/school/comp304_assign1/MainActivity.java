@@ -36,6 +36,39 @@ public class MainActivity extends Activity {
 		view.draw(c);
 		view.setLayoutParams(new LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,200));
 		layout.addView(view);
+	
+
+//		SurfaceView layout = (SurfaceView)findViewById(R.id.FlagLayout);
+//		layout.getHolder().addCallback(new Callback() {
+//			
+//			@Override
+//			public void surfaceCreated(SurfaceHolder holder)
+//			{
+//				
+//				Canvas canvas = holder.lockCanvas();
+//
+//				Paint white = new Paint();
+//				white.setColor(Color.WHITE);
+//				Paint red = new Paint();
+//				red.setColor(Color.RED);
+//	            canvas.drawRect(new Rect(0,0,100,30), white);
+//				canvas.drawRect(new Rect(0,0,20,30), red);
+//	            canvas.drawRect(new Rect(70,0,20,30), red);
+//	            holder.unlockCanvasAndPost(canvas);
+//			}
+//
+//			@Override
+//			public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//
+//			@Override
+//			public void surfaceDestroyed(SurfaceHolder holder) {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//		});
 	}
 	
 	@Override
